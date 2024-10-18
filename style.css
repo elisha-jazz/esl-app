@@ -1,0 +1,217 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:arial, sans-serif;
+}
+
+body{
+    background-color: #003366;
+    color: white#333;
+}
+
+header{
+    background-color: #b31217;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+header .logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul{
+    list-style: none;
+    display:flex;
+    gap: 1rem;
+}
+
+header nav ul li a{
+    color:white;
+    text-decoration: none;
+    text-emphasis: inherit;
+}
+
+
+.hero{
+    background-color: #003366;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.hero img{
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit:unset;
+}
+
+.hero h1{
+    color: white;
+    margin-top: -10px;
+    font-size:  4rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero p{
+    color: white;
+    text-align: center;
+    font-size:1.3rem;
+    padding: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    justify-content: center;
+}
+
+.genres, .top-movies {
+    color: white;
+    font-size:x-large;
+    padding: 2rem;
+    text-align: center;
+}
+
+.genres h2{
+    color:white;
+    font-size: 2.5rem;
+    padding-bottom: 2.5rem;
+    font-weight: bold;
+}
+
+
+.genre-cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.genre-card{
+    text-align: center;
+    background-color: #b31217;
+}
+
+.genre-card img{
+    width: 300px;
+    height: 450px;
+    object-position: 2rem, 10rem;
+}
+
+.genre-card p{
+    margin-top: 0.5rem;
+    color: white;
+    font-size:90%;
+}
+
+.big-div{
+    display: flex;
+    flex-direction:unset;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+  grid-gap:20px;
+}
+
+
+.big-div h2{
+    color:white;
+    padding-bottom: 2.5rem;
+}
+
+.movie-div{
+    display:grid;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.movie-div img{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    align-items: center;
+    gap: 2rem;
+}
+
+.movie-div p{
+    margin: 1rem 0 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.movie-div a{
+    background-color: #ffffff;
+    color: black;
+    padding: 0.5rem 3rem;
+    text-decoration: none;
+    border-radius: 10rem;
+    font-size:1.2rem;
+}
+
+footer{
+    background-color: rgba(0, 247, 255, 0.281);
+    padding: 2rem;
+    text-align: center;
+    position:sticky;
+}
+
+footer .footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 12rem;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    color: white;
+}
+
+footer div a{
+    color: white;
+}
+
+footer div div p{
+    color: yellowgreen;
+    font-size: 0.9rem;
+    padding: 0.1rem;
+}
+
+.footer-links a{
+    padding-bottom: 5rem;
+}
+
+footer form{
+    display:flex;
+    justify-content: center;
+    gap:1rem;
+}
+
+.newsletter p{
+    color: white;
+}
+
+.logos{
+    display: flex;
+    gap: 1px;
+    padding: 0;
+    padding-top: 1rem;
+}
+
+form p{
+    font-size: 1.1rem;
+    margin-left: -5rem;
+}
+
+form button{
+   bottom: unset;
+}
+
+.footer-links ul{
+   padding-top: 0.5rem;
+   justify-content: space-around;
+}
